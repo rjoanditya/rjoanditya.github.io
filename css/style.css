@@ -54,8 +54,9 @@ div.achievement {
 
 div.row.align-items.start.width-full{
     margin: 0;
-    padding: 0
+    padding: 0;
 }
+
 div.container.card{
     background: none;
     border: none;
@@ -124,6 +125,14 @@ div.card {
     padding-left: 5px ;
   }
 
+  a{
+    color: black;
+    text-decoration: none;
+  }
+  a:hover{
+    color:#938962;
+  }
+
   .full-height{
     height: 100%;
   }
@@ -163,17 +172,38 @@ div.card {
   .mt-10{
     margin-top: 5em;
   }
+  .mt-8{
+    margin-top: 5em;
+  }
 
   .bg-shadow-blur{
     /* position: relative;
     z-index: ; */
     background-color: #EAE9E5;
     opacity: 80%;
-    filter: blur(50 px);
-    -webkit-filter: blur(8px);
-    backdrop-filter: blur(50px);
+    filter: blur(29px);
+    -webkit-filter: blur(5px);
+    backdrop-filter: blur(29px);
+/* 
+    --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+
+    --tw-backdrop-blur: blur(8px);
+    -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+    backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia); */
   }
   .card-container{
     position: relative;
     z-index: 15;
+    padding: 5;
+    margin: 5;
+  }
+
+  .w-45{
+    width: 45px;
+  }
+
+  .w-60{
+    width: 60px;
   }
