@@ -1,0 +1,179 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: #EAE9E5;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+
+h1.header{
+    font-family: 'Source Serif Pro', serif;
+    font-weight:  900;
+    font-size:9ch;
+}
+
+div.bg-text{
+position: absolute;    
+z-index: -99;
+height: 20%;
+top: 22%;
+margin-top: 0;
+font-family: 'Source Serif Pro', serif;
+font-weight:  900;
+font-size: 33ch;
+/* letter-spacing: 0.1em; */
+color: #E6E3DD;
+}
+div.container.achievement{
+    background: none;
+    border: none;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+div.achievement {
+    position: absolute;
+    align-items: center;
+    left: 0px;
+    bottom: 0;
+    width: 100%;
+    height: 23%;
+    z-index: 15;
+    padding: 0;
+    margin: 0;
+  }
+
+div.row.align-items.start.width-full{
+    margin: 0;
+    padding: 0
+}
+div.container.card{
+    background: none;
+    border: none;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+div.card {
+    position: absolute;
+    align-items: center;
+    left: 0px;
+    bottom: 0;
+    width: 100%;
+    height: 23%;
+    z-index: 10;
+    padding: 0;
+    margin: 0;
+  }
+  div.img {
+    position: absolute;
+    align-items: center;
+    right: 0;
+    left: 40em;
+    top: 10%;
+    max-width: 54em;
+    height: 89%;
+    z-index: 5;
+    padding: 0;
+    margin: 0;
+  }
+
+  div.card-box {
+    position:static;
+    align-items: center;
+    text-align: center;
+    top: 3%;
+    height: 100%;
+    z-index: 10;
+    padding: 0;
+    margin: 0;
+  }
+
+  div.img.index-5{
+    position: static;
+    z-index: 5;
+    width: 50%;
+    height: 800px;
+    top: 10%;
+    height: 100%;
+    z-index: 10;
+    padding: 0;
+    margin: 0;
+  }  
+
+
+  .img.index-5 img{
+    margin-top: 0;
+    max-width: 900px;
+  }
+
+  p{
+    font-weight: 300;
+    font-size: 2ch;
+    color: #B5B5B5;
+    margin: 0;
+    padding-left: 5px ;
+  }
+
+  .full-height{
+    height: 100%;
+  }
+
+  .width-full{
+    width: 100%;
+  }
+
+  .center {
+    line-height: 200px;
+    height: 200px;
+    text-align: center;
+  }
+  
+  .center p {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .align-items-mid{
+    height: 800;
+  }
+
+  .vertical-align-mid{
+    vertical-align: middle;
+  }
+
+  div.row.align-items-mid.row-mid{
+    margin-top:17%;
+  }
+
+  .bg-black{
+    font-size: 3ch;
+  }
+
+  .mt-10{
+    margin-top: 5em;
+  }
+
+  .bg-shadow-blur{
+    /* position: relative;
+    z-index: ; */
+    background-color: #EAE9E5;
+    opacity: 80%;
+    filter: blur(50 px);
+    -webkit-filter: blur(8px);
+    backdrop-filter: blur(50px);
+  }
+  .card-container{
+    position: relative;
+    z-index: 15;
+  }
