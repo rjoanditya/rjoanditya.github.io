@@ -1,0 +1,41 @@
+{
+  "profile": {
+    "fullName": "Rizky Joanditya",
+    "nickname": "Joan",
+    "role": "Junior Programmer",
+    "institution": "Universitas Sebelas Maret",
+    "image": "img/rizkyjoanditya.png"
+  },
+  "activities": [
+    {
+      "name": "iotanic.id",
+      "url": "https://iotanic.id",
+      "image": "img/iotanic.png"
+    },
+    {
+      "name": "Solocorn 2023",
+      "url": "https://solocorn.solotechnopark.id",
+      "image": "img/solocorn.png"
+    },
+    {
+      "name": "VFS Bootcamp",
+      "url": "https://venturefactory.futureskills.id/fs/dashboard",
+      "image": "img/vfs.png"
+    },
+    {
+      "name": "aicademy.id",
+      "url": "https://aicademy.id/",
+      "image": "img/aicademyid.png"
+    }
+  ],
+  "skills": [
+    { "name": "Python", "icon": "fa-brands fa-python", "color": "#3776ab" },
+    { "name": "TypeScript", "icon": "fa-brands fa-ts", "color": "#f7df1e" },
+    { "name": "React", "icon": "fa-brands fa-react", "color": "#61dbfb" },
+    { "name": "Node.js", "icon": "fa-brands fa-node-js", "color": "#3c873a" },
+    { "name": "HTML5", "icon": "fa-brands fa-html5", "color": "#e34f26" },
+    { "name": "CSS3", "icon": "fa-brands fa-css3-alt", "color": "#2965f1" },
+    { "name": "Git", "icon": "fa-brands fa-git-alt", "color": "#f05032" },
+    { "name": "Database", "icon": "fa-solid fa-database", "color": "#00758f" }
+  ]
+}

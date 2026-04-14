@@ -1,104 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio | Rizky Joanditya</title>
+    <title>Portfolio | Rizky Joanditya</title>
     <link rel="shortcut icon" href="img/github.png"/>
     <!-- include bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <!-- link Devicon for Brand Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <!-- link Font Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,300;0,400;0,600;0,900;1,400;1,600;1,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
     <!-- Link Font Awesome -->
     <script src="https://kit.fontawesome.com/8b38acfece.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-    <!-- Begin container start column -->
-    <div class="section full-height">
-        <div class="container d-flex justify-content-start flex-column" style="height: 100%;">
-            <div class="bg-text">
-                Rizky Joanditya
+    <!-- Huge Background Text -->
+    <div class="bg-text" id="bg-text">Rizky Joanditya</div>
+
+    <div class="container main-container py-5">
+        <!-- Header / Nav area -->
+        <header class="d-flex justify-content-between align-items-center mb-5 animate-fade-in text-white">
+            <h2 id="nickname" class="logo-text">Joan</h2>
+            <div class="search-btn" title="Search">
+                <i class="fa fa-search shadow-icon"></i>
             </div>
-            <div class="row align-items-start">
-                <div class="col-10 mt-10">
-                    <h2>Joan</h2>
+        </header>
+
+        <!-- Hero Section -->
+        <div class="row hero-section align-items-center animate-slide-up delay-1">
+            <div class="col-md-7 hero-text-col">
+                <h1 class="header-title" id="fullname">Rizky Joanditya</h1>
+                <p class="role-text" id="role">Junior Programmer</p>
+                <div class="institution-badge">
+                    <i class="fa-solid fa-graduation-cap"></i> <span id="institution">Universitas Sebelas Maret</span>
                 </div>
-                <div class="col-1 mt-10">
-                    <div class="rounded-circle bg-white align-center" style="height:50px;width: 50px;">
-                    <i class="fa fa-search"></i>
-                    </div>
+            </div>
+            <div class="col-md-5 hero-img-col text-center">
+                <div class="profile-wrapper">
+                    <img id="profile-img" src="img/rizkyjoanditya.png" alt="Profile Image" class="profile-img">
                 </div>
-            </div>
-                <!-- row mid -->
-            <div class="row align-items-mid row-mid">
-                <div class="col">
-                    <h1 class="header">Rizky Joanditya</h1>
-                    <p>Junior Programmer</p>
-                    <p>Universitas Sebelas Maret</p>
-                </div>        
-            </div>
-        </div>
-        <div class="container img">
-            <div class="img index-5">
-                <img src="img/rizkyjoanditya.png" alt="">
             </div>
         </div>
-        <div class="container card">
-            <div class="row align-items-start width-full full-height">
-                <div class="col-3 card-box text-light text-center bg-black center">Activites</div>
-                <div class="col card-box bg-shadow-blur center" style="background-color: #EAE9E5;"></div>
+
+        <!-- Activities Section -->
+        <div class="activities-wrapper glass-panel animate-slide-up delay-2 mt-5">
+            <div class="activities-header">
+                <h3 class="mb-0">Featured Activities & Projects</h3>
+            </div>
+            <div class="activities-body row" id="activities-row">
+                <!-- Activities will be injected here via JavaScript -->
+
             </div>
         </div>
-        <div class="container achievement">
-            <div class="row align-items-center width-full full-height">
-                <div class="col-3">a</div>
-                <div class="col">
-                    <div class="card-box card-container">
-                        <img src="img/iotanic.png" class="rounded rounded-pill w-60" alt="">
-                        <a href="https://iotanic.id" class="mx-2">iotanic.id</a>
-                        
-                    </div>
+
+        <!-- Skills Section -->
+        <div class="skills-wrapper glass-panel animate-slide-up delay-2 mt-5 mb-5">
+            <div class="activities-header">
+                <h3 class="mb-0">Tech Stack & Skills</h3>
+            </div>
+            <div class="activities-body">
+                <div class="skills-grid" id="skills-grid">
+                    <!-- Skills will be injected here via JavaScript -->
                 </div>
-                <div class="col">
-                    <div class="card-box card-container">
-                        <img src="img/solocorn.png" class="rounded rounded-pill w-60" alt="">
-                        <a href="https://solocorn.solotechnopark.id" class="mx-2">Solocorn 2023 </a>
-                        
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card-box card-container">
-                        <img src="img/vfs.png" class="rounded rounded-pill w-60" alt="">
-                        <a href="https://venturefactory.futureskills.id/fs/dashboard" class="mx-2">VFS Bootcamp</a>
-                        
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card-box card-container">
-                        <img src="img/aicademyid.png" class="rounded rounded-pill w-60" alt="">
-                        <a href="https://aicademy.id/" class="mx-2">aicademy.id</a>
-                        
-                    </div>
-                </div>
-               
             </div>
         </div>
+
+        <!-- Portfolio / Blog Section -->
+        <div class="portfolio-wrapper glass-panel animate-slide-up delay-2 mb-5">
+            <div class="activities-header">
+                <h3 class="mb-0">Portfolio & Projects</h3>
+            </div>
+            <div class="portfolio-body row" id="portfolio-row" style="padding: 2rem;">
+                <!-- Portfolio cards will be injected here via JavaScript -->
+            </div>
         </div>
     </div>
     
-    <!-- Begin script -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="data.js"></script>
+    <script>
+        // Use resumeData directly from data.js to avoid CORS errors when opening file locally
+        window.addEventListener('DOMContentLoaded', () => {
+            const data = resumeData;
+            
+            // Populate Profile Data
+            document.getElementById('bg-text').textContent = data.profile.fullName;
+            document.getElementById('nickname').textContent = data.profile.nickname;
+            document.getElementById('fullname').textContent = data.profile.fullName;
+            document.getElementById('role').textContent = data.profile.role;
+            document.getElementById('institution').textContent = data.profile.institution;
+            document.getElementById('profile-img').src = data.profile.image;
+
+            // Populate Activities Data
+            const activitiesRow = document.getElementById('activities-row');
+            activitiesRow.innerHTML = '';
+            data.activities.forEach(activity => {
+                const colDiv = document.createElement('div');
+                colDiv.className = 'col-lg-3 col-md-4 col-sm-6 mb-4';
+                colDiv.innerHTML = `
+                    <a href="${activity.url}" target="_blank" class="activity-card-link">
+                        <div class="activity-card glass-card">
+                            <div class="activity-img-wrapper">
+                                <img src="${activity.image}" class="activity-img" alt="${activity.name}">
+                            </div>
+                            <div class="activity-title">${activity.name}</div>
+                        </div>
+                    </a>
+                `;
+                activitiesRow.appendChild(colDiv);
+            });
+
+            // Populate Skills Data
+            if(data.skills) {
+                const skillsGrid = document.getElementById('skills-grid');
+                skillsGrid.innerHTML = '';
+                data.skills.forEach(skill => {
+                    const skillBadge = document.createElement('div');
+                    skillBadge.className = 'skill-badge';
+                    skillBadge.innerHTML = `
+                        <i class="${skill.icon} skill-icon" style="color: ${skill.color}"></i>
+                        <span class="skill-name">${skill.name}</span>
+                    `;
+                    skillsGrid.appendChild(skillBadge);
+                });
+            }
+
+            // Populate Portfolio Data
+            if(data.portfolio) {
+                const portfolioRow = document.getElementById('portfolio-row');
+                portfolioRow.innerHTML = '';
+                data.portfolio.forEach(item => {
+                    const colDiv = document.createElement('div');
+                    colDiv.className = 'col-lg-4 col-md-6 mb-4';
+                    colDiv.innerHTML = `
+                        <a href="${item.url}" target="_blank" class="portfolio-card-link">
+                            <div class="portfolio-card glass-card">
+                                <div class="portfolio-thumbnail" style="background-image: url('${item.thumbnail}')"></div>
+                                <div class="portfolio-content">
+                                    <h4 class="portfolio-title">${item.title}</h4>
+                                    <p class="portfolio-desc">${item.description}</p>
+                                </div>
+                            </div>
+                        </a>
+                    `;
+                    portfolioRow.appendChild(colDiv);
+                });
+            }
+        });
     </script>
 </body>
-
 </html>
